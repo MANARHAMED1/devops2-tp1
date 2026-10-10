@@ -1,3 +1,4 @@
+
 import { Fragment } from "react";
 import DevOpsLoop from "@/components/DevOpsLoop";
 
@@ -50,14 +51,25 @@ export default function Home() {
       <header className="hero">
         <div className="container">
           <div>
-            <div className="eyebrow">Plateforme de questionnaires · Site fictif</div>
-            <h1>Créez, partagez et analysez vos questionnaires</h1>
+            {/* QST-2 : modification du bandeau d'accueil */}
+            <div className="eyebrow">
+              Créez vos questionnaires simplement
+            </div>
+
+            <h1>Créez votre questionnaire facilement</h1>
+
             <p className="lead">
-              Quizzo vous aide à concevoir des quiz en quelques minutes et à suivre les résultats en temps réel.
+              Concevez vos questionnaires, partagez-les avec vos participants
+              et organisez facilement la collecte de leurs réponses.
             </p>
+
             <div className="hero-actions">
-              <a className="btn btn-primary" href="#commencer">Créer un questionnaire</a>
-              <a className="btn btn-ghost" href="#fonctionnement">Voir comment ça marche</a>
+              <a className="btn btn-primary" href="#commencer">
+                Créer un questionnaire
+              </a>
+              <a className="btn btn-ghost" href="#fonctionnement">
+                Voir comment ça marche
+              </a>
             </div>
             <span className="pill">DevOps 2 · TP1</span>
           </div>
@@ -158,3 +170,4 @@ export default function Home() {
     </>
   );
 }
+```
