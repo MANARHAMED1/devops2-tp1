@@ -1,6 +1,7 @@
 
 import { Fragment } from "react";
 import DevOpsLoop from "@/components/DevOpsLoop";
+import Modeles from "@/components/Modeles";
 
 const features = [
   { title: "Éditeur simple", text: "Questions à choix, réponses libres et barèmes." },
@@ -151,6 +152,8 @@ export default function Home() {
         </div>
       </section>
 
+      <Modeles />
+
       <section id="commencer" className="quote">
         <DevOpsLoop className="watermark" watermark />
         <div className="container">
@@ -170,4 +173,3 @@ export default function Home() {
     </>
   );
 }
-```
